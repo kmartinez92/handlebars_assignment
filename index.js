@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({
 
 const hbs = exphbs.create();
 
-// Register `hbs.engine` with the Express app.
+
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
